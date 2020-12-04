@@ -10,7 +10,7 @@
   },
   "publicPath": "/app/themes/trustee",
   "devUrl": "http://trustee.test",
-  "proxyUrl": "http://localhost:3000",
+  "proxyUrl": "http://localhost:3700",
   "cacheBusting": "[name]_[hash:8]",
   "watch": [
     "app/**/*.php",
