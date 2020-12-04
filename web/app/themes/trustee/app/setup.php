@@ -23,6 +23,15 @@ add_action('wp_enqueue_scripts', function () {
  * Theme setup
  */
 add_action('after_setup_theme', function () {
+
+    add_theme_support(
+        'custom-logo',
+        [
+            'flex-width'  => true,
+            'flex-height' => true,
+        ]
+    );
+
     /**
      * Enable features from Soil when plugin is activated
      * @link https://roots.io/plugins/soil/
