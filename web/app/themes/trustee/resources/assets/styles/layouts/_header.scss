@@ -1,7 +1,30 @@
-.banner .nav li {
+.header .nav li {
   @extend .nav-item;
 }
 
-.banner .nav a {
+.header .nav a {
   @extend .nav-link;
+}
+
+// .header {
+//   display: flex;
+//   &__left {
+//     flex: 0 1 30%;
+//   }
+// }
+
+.inner-header {
+  display: flex;
+  padding: 15px 0;
+}
+
+.header__left {
+  width: 30%;
+  flex: 0 1 auto;
+}
+
+@media screen and (max-width: 767px) {
+  .header__left {
+    width: 100%;
+  }
 }
