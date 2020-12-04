@@ -15,13 +15,25 @@
 
 .inner-header {
   display: flex;
+  align-items: center;
+  justify-content: space-between;
   padding: 15px 0;
+}
+
+@media screen and (max-width: 767px) {
+  .inner-header {
+    flex-direction: column;
+  }
 }
 
 .header__left {
   width: 30%;
   flex: 0 1 auto;
 }
+
+// .header__right {
+
+// }
 
 @media screen and (max-width: 767px) {
   .header__left {

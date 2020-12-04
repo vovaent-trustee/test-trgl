@@ -19,7 +19,9 @@
 			@endif
 		</div>
 		<!-- ./header__left -->
-		<div class="header__right"></div>
+		<div class="header__right">
+      @php pll_the_languages(['dropdown' => 1]) @endphp
+    </div>
 		<!-- /.header__right -->
     </div>
     <!-- ./inner-header -->
